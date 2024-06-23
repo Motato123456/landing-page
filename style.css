@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+.section-one {
+    background-color: #1f2937;
+    padding-left: 200px;
+    padding-right: 200px;
+    padding-top: 24px;
+    padding-bottom: 150px;
+    display: flex;
+    flex-direction: column;
+    gap: 100px   ;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.right{
+    display: flex;
+    font-family: Roboto, sans-serif;
+    font-size: 18px;
+    gap: 16px;
+    
+}
+.left{
+    color: #F9FAF8;
+    font-family: Roboto, sans-serif;
+    font-size: 24px;
+    font-weight: bolder;
+}
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+a{
+    text-decoration: none;
+    color: #E5E7Eb;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.text {
+    max-width: 500px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.largetext {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+    font-family: Roboto, sans-serif;
+}
+
+.smalltext {
+    font-size: 18px;
+    color: #E5E7Eb;
+    font-family: Roboto, sans-serif;
+}
+
+.image {
+    background-color: rgb(178, 178, 178);
+    width: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.signup {
+    border-radius: 100px;
+    background-color: #3882f6;
+    padding: 10px;
+    max-width: 160px;
+}
+
+.header2 {
+    font-family: Roboto, sans-serif;
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+    text-align: center;
+}
+
+.boxes {
+    display: flex;
+    justify-content:center;
+    gap: 70px   ;
+}
+
+.box{
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    
+}
+
+.ring {
+    border-style: solid;
+    padding: 100px;
+    border-radius: 20px;
+    border-color: #3882f6;
+}
+
+.words {
+    color: #a2a3a5;
+    font-family: Roboto, sans-serif;
+    text-align: center;
+}
+
+.section-two {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    margin-top: 40px;
+}
+
