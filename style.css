@@ -101,6 +101,7 @@ a{
     display: flex;
     flex-direction: column;
     width: 200px;
+    gap: 10px;
     
 }
 
@@ -143,7 +144,7 @@ a{
     width: 900px;
     font-family: Roboto, sans-serif;
     font-size: 36px;
-    font-weight: light;
+    font-weight: 100px;
     font-style: italic;
 
 }
@@ -151,9 +152,61 @@ a{
 .author {
     text-align: right;
     width: 900px;
-    font-family: Roboto, sans-serif;
+    font-family: 
     font-size: 14px;
     font-weight: bold;
-
-    
 }
+
+.section-four {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.modal{
+    display: flex;
+    background-color: #3882f6;
+    border-radius: 8px;
+    padding: 50px;
+    width: 900px;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.text2, .subtext2 {
+    color: white;
+    font-family:Roboto, sans-serif; 
+}
+
+.signup2{
+    border-radius: 8px;
+    background-color: transparent;
+    border-color: white;
+    color: white;
+    width: 90px;
+    height: 40px;
+}
+
+.text2 {
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.subtext2{
+    font-size: 15px;
+    font-weight: lighter;
+}
+
+.footer-text {
+    background-color: #1f2937;
+    text-align: center;
+    color: white;
+    font-family: Roboto, sans-serif;
+    font-size: 14px;
+    padding: 40px;
+}
+
+
